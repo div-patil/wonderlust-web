@@ -41,8 +41,7 @@ main().then((res)=>{
 })
 
 async function main() {
-    await mongoose.connect(atlas_url)
-   
+    await mongoose.connect(atlas_url);
 }
 
 const store = MongoStore.create({
